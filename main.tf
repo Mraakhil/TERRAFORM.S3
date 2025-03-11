@@ -25,7 +25,7 @@ server_side_encryption_configuration {
 # 2 - this Creates Dynamo Table
 resource "aws_dynamodb_table" "terraform_locks" {
 # Give unique name for dynamo table name
-  name         = "tf-up-and-run-locks"
+  name         = "tf-up-and-run-locksPPPPPPPP"
   billing_mode = "PAY_PER_REQUEST"
   hash_key     = "LockID"
         attribute {
@@ -41,7 +41,7 @@ terraform {
     key            = "dc/s3/terraform.tfstate"
     region         = "us-east-2"
     #Replace this with your DynamoDB table name!
-    dynamodb_table = "tf-up-and-run-locks"
+    dynamodb_table = "tf-up-and-run-locksPPPPPPPP"
     encrypt        = true
     }
 }
