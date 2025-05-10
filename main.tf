@@ -28,7 +28,7 @@ server_side_encryption_configuration {
 terraform {
   backend "s3" {
     #Replace this with your bucket name!
-    bucket         = "terraformmm-coachdevops-stateeeEEEEEEE"
+    bucket         = "terraformmm-coachdevops-stateeeEEEEEEEre"
     key            = "dc/s3/terraform.tfstate"
     region         = "us-east-2"
    
