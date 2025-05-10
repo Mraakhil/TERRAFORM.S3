@@ -30,7 +30,8 @@ terraform {
     #Replace this with your bucket name!
     bucket         = "terraformmm-coachdevops-stateeeEEEEEEEre"
     key            = "dc/s3/terraform.tfstate"
-    region         = "us-east-2"
+    region         = "ap-south-1a
+"
    
     }
 }
